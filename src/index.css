@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* #root{
+    @apply bg-red-500;
+    overflow: hidden;
+    max-height: 100vh;
+}
+
+#root::after{
+    content: "";
+    @apply bg-red-400;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    border-radius: 100%;
+    transform: translateY(50%);
+} */
