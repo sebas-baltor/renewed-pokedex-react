@@ -18,26 +18,31 @@ The project structure is as follows:
 my-react-app/
 ├── node_modules/
 ├── public/
-│   ├── index.html
+│   ├── assets
 │   └── ...
 ├── src/
 │   ├── assets/
 │   ├── components/
-│   │   ├── Header.tsx
-│   │   ├── Footer.tsx
+│   │   ├── Pagination
+│   │   ├── Pokemon
+│   │   └── ...
+│   ├── constants/
+│   │   ├── const.ts
 │   │   └── ...
 │   ├── pages/
 │   │   ├── Home.tsx
 │   │   ├── About.tsx
 │   │   └── ...
-│   ├── store/
-│   │   ├── index.ts
-│   │   ├── rootReducer.ts
-│   │   └── slices/
-│   │       ├── userSlice.ts
-│   │       └── ...
-│   ├── App.tsx
-│   ├── index.tsx
+│   ├── features/ for redux
+│   │   ├── redux.ts
+│   │   └── ...
+│   ├── lib / utilities for whole app and configuration
+│   │   ├── util.ts
+│   │   └── ...
+│   ├── pages/
+│   │   ├── home.tsx
+│   ├── main.tsx
+│   ├── index.css
 │   └── ...
 ├── .gitignore
 ├── package.json
